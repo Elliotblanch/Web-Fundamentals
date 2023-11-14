@@ -1,0 +1,41 @@
+/* This is a comment*/
+
+.body-class{
+    background-color: rgb(56, 228, 228);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-class{
+    color: crimson;
+    font-size: 88px;
+    background-color: black;
+    background-image: url(doggo.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 20px;
+    padding: 20px, 70px, 20px;
+    border: 10px solid crimson;
+}
+
+.image-class{
+    width:300px;
+    height:400px;
+    float: right;
+}
+
+.table-image-class{
+    width:30px;
+    height: 40px;
+}
+
+.para1-class{
+    text-align: center;
+    color: purple;
+    clear:left;
+}
+
+.para2-class{
+    text-align: right;
+}

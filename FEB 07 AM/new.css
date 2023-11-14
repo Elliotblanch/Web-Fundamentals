@@ -1,0 +1,72 @@
+*{
+    background:linear-gradient(to right, white, cyan);
+}
+
+.body-class{
+    color:rgb(255, 0, 0);
+    margin: 30px;
+    padding: 20px;
+    text-align: center; 
+    font-family: sans-serif; 
+    font-size: xx-large;
+}
+/* Header class with border. Background not working */
+.header-class{
+    color:green;
+    text-align:left;
+    border-style: outset;
+    border-width:10px;
+    border-radius: 20px;
+    border-color:black;
+    background-color: blueviolet;
+}
+
+.image-class{
+    
+    width:300px;
+    height:400px;
+    float:right;
+}
+
+.table-image-class{
+    width:90px;
+    height:120px;
+}
+
+.caption-class{
+    color: black;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 10px;
+    border-color:chartreuse;
+    float:right;
+}
+
+.Ulist-class{
+    color: hotpink;
+    list-style-type: square;
+    width:10px;
+    height: 10px;
+    padding: 5px;
+    background-color: yellow;
+    display: inline;
+
+}
+
+ul li{
+    display: inline;
+}
+
+.Olist-class{
+    color: hotpink;
+    width:10px;
+    height: 10px;
+    padding: 5px;
+    background-color: yellow;
+    display:inline;
+
+}
+
+ol li{
+    display: inline;
+}

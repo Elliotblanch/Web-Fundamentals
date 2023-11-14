@@ -1,0 +1,44 @@
+/* This is a comment */ 
+/*
+*{
+    animation: fade ease-in-out .75s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+*/
+
+.body-class{
+    background:linear-gradient(to bottom right, rgb(255, 163, 179), white);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color:rgb(0, 174, 174);
+    border: 20px solid rgb(0, 174, 174);
+    text-align: center;
+    background-color: white;
+    margin: 0px 300px 0px 300px;
+    padding: 10px 0px 10px 0px;
+    font-size: 54px;
+    /*background-image: url(doggo.jpg);
+    background-size: 60px, 80px; */
+}
+
+img{
+    float: right;
+    clear: left;
+    width:300px;
+}
+
+.super-special-image-class{
+    float:left;
+    clear: right;
+}

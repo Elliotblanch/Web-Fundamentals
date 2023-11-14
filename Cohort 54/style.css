@@ -1,0 +1,38 @@
+.body-class{
+    background-color: rgba(0, 234, 234, 0.916);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    }
+
+.header-class{
+    color: crimson;
+    font-size: 60px;
+    background-color: black;
+    background-image: url(https://th.bing.com/th/id/OIP.OGIruAWUFkCrXe7yPwTqtgHaHt?w=190&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: 250px;
+    padding: 10px 10px 10px 40px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-right: 500px; 
+    border: 10px solid crimson;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.text-class{
+    text-align: center;
+    color:purple;
+    border: 10px solid purple;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 230px 0px 230px;
+}
+
+.img-class{
+    margin: 20px 0px 10px 10px;
+    float:right;
+    clear: right;
+    height: auto;
+    width: 30%;
+}

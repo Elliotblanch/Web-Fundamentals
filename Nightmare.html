@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Metadata-->
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Cheatsheet 'Upgrade'</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<header class="header-class">
+    <h1>
+      This is a large header
+    </h1>
+  <br>
+    <h3>
+      This is a medium header
+    </h3>
+  <br>
+    <h5>
+      This is a small header
+    </h5>
+    <!--Javascript setting & outputting variables to console-->
+    <script>
+      let userName = "Elliot";
+      let id = 1;
+      let staff = true;
+      console.log(userName + ", ID: " + id + ", Staff = " + staff);
+    </script>
+
+    <script>
+      let user = {name: "carl",
+                  age : 42,
+                  staff : false
+                };
+      console.log("Name: " + user.name)
+      console.log("staff: " + user.staff)
+    </script>
+
+    <script>
+      function thankYou( ){
+        alert("Thank you!");
+      }
+    </script>
+  </header>
+
+  <br>
+
+  <body class="body-class">
+    <a href="destination.html"> This is a link to nowhere</a>
+    <p>
+      This is a paragraph of text
+      and line breaks do not matter here
+    </p>
+    <p>
+      you can use the <br>
+      line break tag to <br>
+      move text to the <br>
+      next line
+    </p>
+    <p>
+      You can make text bold with <b>
+      the b tag
+      </b>
+      and continue outside the tag
+    </p>
+  
+    <p> 
+    You can also format text to be <i>italic</i> <u>underlined</u> <del>crossed out</del> etc.
+    </p>
+
+  <!--This is a comment, it will not appear on the webpage7-->
+
+  <hr>
+    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essentially unchanged. It was popularised in the 1960s with the release of 
+      Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+      software like Aldus PageMaker including versions of Lorem Ipsum."</p>
+
+  <hr>
+
+    <img src="Doggo.jpg" alt="One disgruntled pupper" style="width:300px;height:400px;">
+    <figcaption>This is a caption</figcaption>
+
+  <hr>
+    
+  <!--A basic table format-->
+    <table border="2px" cellpadding="5px">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Fave Colour</th>
+        </tr>
+      </thead>
+        <tr>
+          <td>Elliot</td>
+          <td>??</td>
+          <td>Turqoise</td>
+        </tr>
+        <tr>
+          <td>Jack</td>
+          <td>44</td>
+          <td>Red</td>
+        </tr>
+      
+    </table>
+  
+    <button onclick="thankYou()">Click me</button>
+
+    <br>
+  <!--A selector-->
+    <select>
+      <option>Yes</option>
+      <option>No</option>
+      <option>Maybe</option>
+    </select>
+  
+  </body>
+
+  <!--Prompts for user input-->
+  <div>
+    Enter name:<br>
+    <input type="text" placeholder="name">
+    <br>
+    Enter Email Address:<br>
+    <input type="email" placeholder="john.default@mail.net">
+    <br>
+    Enter Phone Number:<br>
+    <input type="tel" placeholder="Phone Number">
+    <br>
+  </div>
+
+  <footer>
+    <hr>
+      <p>You can place a footer at the bottom of your page</p>
+  </footer>
+
+</html>

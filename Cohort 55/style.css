@@ -1,0 +1,45 @@
+.body-class{
+    background:linear-gradient(to right, forestgreen,hotpink);
+    color: salmon;
+}
+
+.header-class{
+    font-size: 48px;
+    font-family: 'Comic sans ms';
+    color: orange;
+    background-color: black;
+    background-image: url(doggo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+    margin: 40px 20px 20px 40px;
+    padding: 90px 120px 120px 90px;
+}
+
+.text-class{
+    font-size: 18px;
+    margin: 10px 40px 10px 40px;
+    border: 5px solid beige;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    box-shadow: 3px 3px 3px grey;
+    width: 75%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-container{
+    text-align: center;
+}
+.img-class{
+    border: 2px solid black;
+    float: right;
+    clear: right;
+    width: 300px;
+    height: auto;
+}
+
+.img-left{
+    border:2px solid black;
+    width: 300px;
+    height: auto;
+}

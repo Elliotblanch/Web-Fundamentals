@@ -1,0 +1,54 @@
+/*This is a comment*/
+
+/* *{
+    animation: fade ease-in-out 1s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+
+.body-class{
+    background-color: rgb(114, 114, 212);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-class{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    background-image: url(Doggo.jpg);
+    background-size: 62px;  
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    text-align: center;
+    border: 5px solid rgb(200, 130, 1);
+    padding: 20px 10px 20px 10px;
+    margin: 0px 300px 0px 300px;
+    font-size: 56px;
+}
+
+h1{
+    color: rgb(200, 130, 1);
+}
+
+h3{
+    color:rgba(238, 246, 5, 0.881);
+}
+
+p{
+    background: linear-gradient(to right, rgb(114, 114, 212), orange);
+}
+
+img{
+    float:right;
+    width: fit-content;
+    clear: right;
+    height: 100px;
+    overflow:scroll;
+}
